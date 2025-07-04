@@ -1,0 +1,82 @@
+/* Courses.css */
+
+.courses-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.courses-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+.courses-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.course-card {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 270px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.course-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.course-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.course-details {
+  font-size: 0.85rem;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.course-button {
+  padding: 10px 15px;
+  background-color: #22c55e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-weight: bold;
+}
+
+.course-button:hover {
+  background-color: #16a34a;
+}
+/* Search bar styling */
+.search-input {
+  width: 300px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 25px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.search-input:focus {
+  border-color: #2563eb;
+}
